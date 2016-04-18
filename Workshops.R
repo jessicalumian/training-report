@@ -1,4 +1,4 @@
-data = as.data.frame(read.csv("~/Desktop/all_workshops_attendees"))
+data = as.data.frame(read.csv("~/Downloads/all_workshops_attendees"))
 
 # Empty undefined empty
 data$X = NULL
@@ -42,9 +42,3 @@ for (each in rolodex){
 
 # save file
 write.csv(attendance, file = "~/Desktop/Attendance.csv")
-
-
-
-
-
-
